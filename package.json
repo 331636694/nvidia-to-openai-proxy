@@ -1,0 +1,23 @@
+{
+  "name": "nvidia-to-openai-proxy",
+  "version": "1.0.0",
+  "description": "NVIDIA API to OpenAI Format Proxy Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nvidia",
+    "openai",
+    "proxy",
+    "api",
+    "llm"
+  ],
+  "author": "2B",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
